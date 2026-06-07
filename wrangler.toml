@@ -12,6 +12,8 @@ ACCESS_PASSWORD = "333333"
 # 非敏感配置（可以放心提交到 Git）
 NEXT_PUBLIC_SITE_NAME = "KVideo"
 NEXT_PUBLIC_SITE_TITLE = "私人影音库"
+NEXT_PUBLIC_SUBSCRIPTION_SOURCES = "https://raw.githubusercontent.com/rapier15sapper/ew/refs/heads/main/test.json
+"
 PERSIST_SESSION = "true"
 # PERSIST_PASSWORD = "true"  # 如果需要记住密码
 
