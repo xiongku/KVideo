@@ -6,6 +6,13 @@ name = "kvideo"
 compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".vercel/output/static" 
+ACCESS_PASSWORD = "333333"
 
 [vars]
+# 非敏感配置（可以放心提交到 Git）
+NEXT_PUBLIC_SITE_NAME = "KVideo"
+NEXT_PUBLIC_SITE_TITLE = "私人影音库"
+PERSIST_SESSION = "true"
+# PERSIST_PASSWORD = "true"  # 如果需要记住密码
+
 # Environment variables can be set here or in Cloudflare Dashboard
